@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Repositories
 {
-    class ItemsRepository
+    public class ItemsRepository
     {
         private ShoppingCartContext context { get; set; }
 
